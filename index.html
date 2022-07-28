@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css?family=DM+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <title>OCR - Projet 5</title>
+  </head>
+
+
+  <body>
+        <header class="header">
+            <h1>QUIZ</h1>
+
+            <h2>Testez vos compétences : les langages du web</h2>
+        </header>
+        
+
+        <main class = "global-container">
+            <section class="quiz-container" id="quiz-container">
+                <!--<p class="question-states"> Le HTML est : </p-->
+                <ul class="answers" id="answers"></ul>
+                    <!--li>Un langage de balisage</li>
+                    <li>Un langage de Programmation</li>
+                    <li>Autre chose</li-->
+
+            </section>
+
+            <section id="correctAnswer">aa</section>
+
+            <section class="button">
+                <div class="submit-button">
+                    <button id="submit">Submit</button>
+                </div>
+
+                <div class="change-slide">
+                    <button id="previous">Previous</button>
+                    <button id="next">Next</button>
+                </div>  
+            </section>
+        </main>
+
+    </body>
+
+    <script src ="data/questions.js"></script>
+    <script src="scripts/factories/factories/question.js"></script>
+    <script src="scripts/factories/helpers/helpers.js"></script>
+    <script src="scripts/factories/pages/index.js"></script>
+
+</html>
